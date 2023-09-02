@@ -1,0 +1,76 @@
+.title {
+  text-align: center;
+}
+.underline {
+  width: 100px;
+  height: 10px;
+  background-color: #22ddca;
+  margin: auto;
+}
+main {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+main .tour {
+  width: 30.333%;
+  background-color: aliceblue;
+  position: relative;
+}
+main .tour span {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #bbdd22;
+  padding: 2px;
+  border-bottom-left-radius: 30%;
+  color: red;
+}
+main .tour h3.name {
+  text-align: center;
+}
+main .tour p.info {
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+  padding: 0px 10px;
+}
+main .tour img {
+  width: 100%;
+  height: 360px;
+}
+.btn {
+  position: absolute;
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: #bbdd22;
+  border: none;
+  color: blue;
+  font-size: 16px;
+  bottom: 0px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #bbdd225b;
+}
+.refreshBtn {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #22ddca;
+  border: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.refreshBtn:hover {
+  background-color: #22ddcac5;
+  cursor: pointer;
+}
+.readBtn {
+  background-color: transparent;
+  color: rgba(0, 0, 255, 0.699);
+  border: none;
+  cursor: pointer;
+}
